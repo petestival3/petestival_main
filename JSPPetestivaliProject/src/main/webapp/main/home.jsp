@@ -5,9 +5,32 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style type="text/css">
+body {
+	background-color:pink; 
+}
+body .container{
+    position: relative;
+}
+.hero__item{
+    width: 800px;
+    position: absolute;
+    right: 0
+}
+
+</style>
 </head>
 <body>
-
+   <div class="container">
+    <div class="hero__item set-bg" data-setbg="../img/hero/banner.jpg">
+                        <div class="hero__text">
+                            <span>FRUIT FRESH</span>
+                            <h2>Vegetable <br />100% Organic</h2>
+                            <p>Free Pickup and Delivery Available</p>
+                            <a href="#" class="primary-btn">SHOP NOW</a>
+                        </div>
+                    </div>
+                 </div>
     <!-- Categories Section Begin -->
     <section class="categories">
         <div class="container">
