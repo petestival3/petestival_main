@@ -30,7 +30,8 @@
 	<jsp:include page="header.jsp"></jsp:include>
 	<!-- home -->
 	<jsp:include page="home.jsp"></jsp:include>
-
+	<!-- footer -->
+	<jsp:include page="footer.jsp"></jsp:include>
 
     <!-- Js Plugins -->
     <script src="../js/jquery-3.3.1.min.js"></script>
