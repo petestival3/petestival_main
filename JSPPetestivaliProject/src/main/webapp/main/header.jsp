@@ -50,8 +50,8 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                       <a href="./index.html">
-                       <h2>PETSTIVAL<img src="img/mainlogo.png" width="35px" height="35px">
+                       <a href="../main/main.do">
+                       <h2>PETSTIVAL<img src="../img/mainlogo.png" width="35px" height="35px">
                        </h2>
                        </a>
                     </div>
