@@ -59,18 +59,42 @@
                 <div class="col-lg-6">
                     <nav class="header__menu">
                         <ul>
-                            <li class="active"><a href="../main/main.do">Home</a></li>
-                            <li><a href="./shop-grid.html">Shop</a></li>
-                            <li><a href="#">Pages</a>
-                                <ul class="header__menu__dropdown">
-                                    <li><a href="./shop-details.html">Shop Details</a></li>
-                                    <li><a href="./shoping-cart.html">Shoping Cart</a></li>
-                                    <li><a href="./checkout.html">Check Out</a></li>
-                                    <li><a href="./blog-details.html">Blog Details</a></li>
+                            <li class="active"><a href="../main/main.do">SHOP</a>
+                               <ul class="header__menu__dropdown">
+                                    <li><a href="#">전체</a></li>
+                                    <li><a href="#">간식</a></li>
+                                    <li><a href="#">사료</a></li>
+                                    <li><a href="#">배변/위생</a></li>
+                                    <li><a href="#">장난감</a></li>
+                                    <li><a href="#">건강관리</a></li>
+                                    <li><a href="#">식기</a></li>
+                                    <li><a href="#">목욕/미용</a></li>
+                                    <li><a href="#">산책/이동장</a></li>
+                                    <li><a href="#">하우스/울타리</a></li>
+                                    <li><a href="#">의류/악세서리</a></li>
                                 </ul>
                             </li>
-                            <li><a href="./blog.html">Blog</a></li>
-                            <li><a href="../funeralDetail/produce.do">FUNERAL</a></li>
+                            <li><a href="./shop-grid.html">HOSPITAL</a>
+                               <ul class="header__menu__dropdown">
+                                    <li><a href="#">병원 검색하기</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">HOTEL</a></li>
+                            <li><a href="../funeralDetail/produce.do">FUNERAL</a>
+                               <ul class="header__menu__dropdown">
+                                    <li><a href="#">장례 절차 안내</a></li>
+                                    <li><a href="#">장례식장 검색하기</a></li>
+                                    <li><a href="#">장례 예약하기</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../funeralDetail/produce.do">COMMUNITY</a>
+                               <ul class="header__menu__dropdown">
+                                    <li><a href="#">자유게시판</a></li>
+                                    <li><a href="#">반려동물 자랑게시판</a></li>
+                                    <li><a href="#">문의게시판</a></li>
+                                    <li><a href="#">공지사항</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -98,20 +122,17 @@
                     <div class="hero__categories">
                         <div class="hero__categories__all">
                             <i class="fa fa-bars"></i>
-                            <span>All departments</span>
+                            <span>유기견 보호 센터</span>
                         </div>
                         <ul>
-                            <li><a href="#">Fresh Meat</a></li>
-                            <li><a href="#">Vegetables</a></li>
-                            <li><a href="#">Fruit & Nut Gifts</a></li>
-                            <li><a href="#">Fresh Berries</a></li>
-                            <li><a href="#">Ocean Foods</a></li>
-                            <li><a href="#">Butter & Eggs</a></li>
-                            <li><a href="#">Fastfood</a></li>
-                            <li><a href="#">Fresh Onion</a></li>
-                            <li><a href="#">Papayaya & Crisps</a></li>
-                            <li><a href="#">Oatmeal</a></li>
-                            <li><a href="#">Fresh Bananas</a></li>
+                            <li><a href="#">실종 동물 목록</a></li>
+                            <li><a href="#">보호중인 유기 동물</a></li>
+                            <li><a href="#">보호 동물 입양</a></li>
+                            <li><a href="#">=반려동물 산책로=</a></li>
+                            <li><a href="#">가까운 산책로 찾기</a></li>
+                            <li><a href="#">=마이펫 관리=</a></li>
+                            <li><a href="#">마이펫 등록</a></li>
+                            <li><a href="#">마이펫 관리</a></li>
                         </ul>
                     </div>
                 </div>
@@ -132,7 +153,7 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5>+65 11.188.888</h5>
+                                <h5>02-3333-3333</h5>
                                 <span>support 24/7 time</span>
                             </div>
                         </div>
