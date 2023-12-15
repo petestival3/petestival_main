@@ -38,9 +38,7 @@ public List<ProductVO> homeProduct(){
 			ProductVO vo=new ProductVO();
 		String p_image=rs.getString(1);
 		String p_name=rs.getString(2);
-		if(p_name.length()>12) {
-			p_name=p_name.substring(0,9)+"...";
-		}
+	
 		
 		vo.setP_image(p_image);
 		vo.setP_name(p_name);
