@@ -13,9 +13,12 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer__about">
-                        <div class="footer__about__logo">
-                            <a href="./index.html"><img src="../img/logo.png" alt=""></a>
-                        </div>
+                        <div class="header__logo">
+                       <a href="../main/main.do">
+                       <h2>PETSTIVAL<img src="../img/mainlogo.png" width="35px" height="35px">
+                       </h2>
+                       </a>
+                    </div>
                         <ul>
                             <li>Address: 60-49 Road 11378 New York</li>
                             <li>Phone: +65 11.188.888</li>

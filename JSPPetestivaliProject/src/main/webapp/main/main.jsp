@@ -1,8 +1,33 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
+<style type="text/css">
+.latest-product__slider.owl-carousel .owl-nav {
+    position: absolute;
+    left: -120px !important;
+    top: 400px !important;
+ }
+.hero__item{
+  position: relative;
+}
+.latest-product__item__text{
+  position: absolute;
+  top: 150px;
+  right: 100px;
+}
+.latest-product__item__text span{
+  margin-top: 50px;
+}
+.hotelbanner{
+  color: #fff !important;
+  font-weight: 700px;
+  left: 0px !important;
+  right: 0px !important;
+}
+</style>
 <meta charset="UTF-8">
 <title>Insert title here</title>
     <meta charset="UTF-8">

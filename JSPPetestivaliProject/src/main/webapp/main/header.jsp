@@ -5,7 +5,6 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
- 
 </head>
 <body>
 <!-- Header Section Begin -->
@@ -16,33 +15,23 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="header__top__left">
                            <ul>
-                              <li><i class="fa fa-envelope"></i> PETSTIVAL@gmail.com</li>
+                              <li class="aaa"><i class="fa fa-envelope"></i> PETSTIVAL@gmail.com</li>
                               <li>Give the gift of love to your little family</li>
                            </ul>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <div class="header__top__right">
-                            <div class="header__top__right__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                            <div class="header__top__right__auth">
+                            <a href="#"><i class="fa fa-user"></i> Mypage</a>
                             </div>
-                            <div class="header__top__right__language">
-                               <img src="img/flag.webp" class="flag" alt="" />
-                                 <div>한국어</div>
-                                 <span class="arrow_carrot-down"></span>
-                                 <ul>
-                                   <li><a href="#">한국어</a></li>
-                                   <li><a href="#">English</a></li>
-                                 </ul>
-                            </div>
+                            &nbsp;&nbsp;
                             <div class="header__top__right__auth">
                                 <a href="#"><i class="fa fa-user"></i> Login</a>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
