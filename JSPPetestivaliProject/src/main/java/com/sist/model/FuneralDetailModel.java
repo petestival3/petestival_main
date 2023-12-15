@@ -10,6 +10,6 @@ public class FuneralDetailModel {
 	public String funeral_main(HttpServletRequest request, HttpServletResponse response)
 	{
 		request.setAttribute("main_jsp", "../funeralDetail/produce.jsp");
-		return "../main/produce.jsp";
+		return "../funeralDetail/produce.jsp";
 	}
 }
