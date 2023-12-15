@@ -15,10 +15,10 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6">
                         <div class="header__top__left">
-                            <ul>
-                                <li><i class="fa fa-envelope"></i> hello@colorlib.com</li>
-                                <li>Free Shipping for all Order of $99</li>
-                            </ul>
+                           <ul>
+                              <li><i class="fa fa-envelope"></i> PETSTIVAL@gmail.com</li>
+                              <li>Give the gift of love to your little family</li>
+                           </ul>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
@@ -30,13 +30,13 @@
                                 <a href="#"><i class="fa fa-pinterest-p"></i></a>
                             </div>
                             <div class="header__top__right__language">
-                                <img src="img/language.png" alt="">
-                                <div>English</div>
-                                <span class="arrow_carrot-down"></span>
-                                <ul>
-                                    <li><a href="#">Spanis</a></li>
-                                    <li><a href="#">English</a></li>
-                                </ul>
+                               <img src="img/flag.webp" class="flag" alt="" />
+                                 <div>한국어</div>
+                                 <span class="arrow_carrot-down"></span>
+                                 <ul>
+                                   <li><a href="#">한국어</a></li>
+                                   <li><a href="#">English</a></li>
+                                 </ul>
                             </div>
                             <div class="header__top__right__auth">
                                 <a href="#"><i class="fa fa-user"></i> Login</a>
@@ -50,13 +50,16 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                       <a href="../main/main.do">
+                       <h2>PETSTIVAL<img src="../img/mainlogo.png" width="35px" height="35px">
+                       </h2>
+                       </a>
                     </div>
-                </div>
+                 </div>
                 <div class="col-lg-6">
                     <nav class="header__menu">
                         <ul>
-                            <li class="active"><a href="./index.html">Home</a></li>
+                            <li class="active"><a href="../main/main.do">Home</a></li>
                             <li><a href="./shop-grid.html">Shop</a></li>
                             <li><a href="#">Pages</a>
                                 <ul class="header__menu__dropdown">
@@ -67,7 +70,7 @@
                                 </ul>
                             </li>
                             <li><a href="./blog.html">Blog</a></li>
-                            <li><a href="./contact.html">Contact</a></li>
+                            <li><a href="../funeralDetail/produce.do">FUNERAL</a></li>
                         </ul>
                     </nav>
                 </div>
