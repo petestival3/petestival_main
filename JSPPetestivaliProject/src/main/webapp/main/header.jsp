@@ -122,15 +122,16 @@
                     <div class="hero__categories">
                         <div class="hero__categories__all">
                             <i class="fa fa-bars"></i>
-                            <span>유기견 보호 센터</span>
+                            <span>ETC</span>
                         </div>
                         <ul>
+                            <li class="mid-menu"><a href="#"><i class="fa fa-bars"></i>&nbsp;유기견 보호 센터</a></li>
                             <li><a href="#">실종 동물 목록</a></li>
                             <li><a href="#">보호중인 유기 동물</a></li>
                             <li><a href="#">보호 동물 입양</a></li>
-                            <li><a href="#">=반려동물 산책로=</a></li>
+                            <li class="mid-menu"><a href="#"><i class="fa fa-bars"></i>&nbsp;반려동물 산책로</a></li>
                             <li><a href="#">가까운 산책로 찾기</a></li>
-                            <li><a href="#">=마이펫 관리=</a></li>
+                            <li class="mid-menu"><a href="#"><i class="fa fa-bars"></i>&nbsp;마이펫 관리</a></li>
                             <li><a href="#">마이펫 등록</a></li>
                             <li><a href="#">마이펫 관리</a></li>
                         </ul>
