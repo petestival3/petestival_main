@@ -104,7 +104,7 @@
                             <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
                             <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
                         </ul>
-                        <div class="header__cart__price">item: <span>$150.00</span></div>
+                        <div class="header__cart__price">item: <span>0&#8361;</span></div>
                     </div>
                 </div>
             </div>
@@ -125,15 +125,15 @@
                             <span>ETC</span>
                         </div>
                         <ul>
-                            <li class="mid-menu"><a href="#"><i class="fa fa-bars"></i>&nbsp;유기견 보호 센터</a></li>
-                            <li><a href="#">실종 동물 목록</a></li>
-                            <li><a href="#">보호중인 유기 동물</a></li>
-                            <li><a href="#">보호 동물 입양</a></li>
-                            <li class="mid-menu"><a href="#"><i class="fa fa-bars"></i>&nbsp;반려동물 산책로</a></li>
-                            <li><a href="#">가까운 산책로 찾기</a></li>
-                            <li class="mid-menu"><a href="#"><i class="fa fa-bars"></i>&nbsp;마이펫 관리</a></li>
-                            <li><a href="#">마이펫 등록</a></li>
-                            <li><a href="#">마이펫 관리</a></li>
+                            <li style="font-weight: 700;"><a href="#"><i class="xi-home"></i>&nbsp;유기견 보호 센터</a></li>
+                            <li style="text-indent: 20px"><a href="#">실종 동물 목록</a></li>
+                            <li style="text-indent: 20px"><a href="#">보호중인 유기 동물</a></li>
+                            <li style="text-indent: 20px"><a href="#">보호 동물 입양</a></li>
+                            <li style="font-weight: 700;"><a href="#"><i class="xi-walk"></i>&nbsp;반려동물 산책로</a></li>
+                            <li style="text-indent: 20px"><a href="#">가까운 산책로 찾기</a></li>
+                            <li style="font-weight: 700;"><a href="#"><i class="xi-heart"></i>&nbsp;마이펫 관리</a></li>
+                            <li style="text-indent: 20px"><a href="#">마이펫 등록</a></li>
+                            <li style="text-indent: 20px"><a href="#">마이펫 관리</a></li>
                         </ul>
                     </div>
                 </div>
