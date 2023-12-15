@@ -89,7 +89,7 @@
                             </li>
                             <li><a href="../funeralDetail/produce.do">COMMUNITY</a>
                                <ul class="header__menu__dropdown">
-                                    <li><a href="#">자유게시판</a></li>
+                                    <li><a href="#">자유게시게시판</a></li>
                                     <li><a href="#">반려동물 자랑게시판</a></li>
                                     <li><a href="#">문의게시판</a></li>
                                     <li><a href="#">공지사항</a></li>
