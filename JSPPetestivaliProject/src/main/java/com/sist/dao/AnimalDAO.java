@@ -32,14 +32,16 @@ public class AnimalDAO {
 			String sql="SELECT kano,keepimage,keepfoundloc,keepregdate,keeptitle,keepcontent,num "
 					+ "FROM (SELECT kano,keepimage,keepfoundloc,keepregdate,keeptitle,keepcontent,rownum as num "
 					+ "FROM (SELECT kano,keepimage,keepfoundloc,keepregdate,keeptitle,keepcontent "
-					+ "FROM keepanimal2)) "
-					+ "WHERE num 1 AND 3";
+					+ "FROM keepanimal2 ORDER BY kano ASC)) "
+					+ "WHERE num BETWEEN 1 AND 3";
 			ps=conn.prepareStatement(sql);
 			
 			ResultSet rs=ps.executeQuery();
 			
+
+			while(rs.next())
+			{
 			AnimalVO vo=new AnimalVO();
-			rs.next();
 			vo.setKano(rs.getInt(1));
 			vo.setKeepimage(rs.getString(2));
 			vo.setKeepfoundloc(rs.getString(3));
@@ -47,6 +49,7 @@ public class AnimalDAO {
 			vo.setKeeptitle(rs.getString(5));
 			vo.setKeepcontent(rs.getString(6));
 			list.add(vo);
+			}
 			rs.close();
 		}catch(Exception ex)
 		{

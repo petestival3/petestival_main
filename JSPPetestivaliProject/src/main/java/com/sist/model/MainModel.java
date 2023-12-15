@@ -21,8 +21,11 @@ public class MainModel {
 		List<StayVO> sList=dao.stayAddressListData(fd);
 		ProductDAO pdao=ProductDAO.newInstance();
 		List<ProductVO>plist =pdao.homeProduct();
+		AnimalDAO adao=AnimalDAO.newInstance();
+		List<AnimalVO> alist=adao.animalBlogList();
 		
-//		request.setAttribute("plist", plist);
+		request.setAttribute("plist", plist);
+		request.setAttribute("alist", alist);
 		request.setAttribute("fd", fd);
 		request.setAttribute("sList", sList);
 		request.setAttribute("main_jsp", "../main/home.jsp");

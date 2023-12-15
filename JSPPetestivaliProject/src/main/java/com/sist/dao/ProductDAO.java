@@ -30,7 +30,7 @@ public List<ProductVO> homeProduct(){
 		conn=dbconn.getConnection();
 		String sql="SELECT p_image,p_name,num "
 					+"FROM (SELECT p_image,p_name,rownum as num "
-					+"FROM (SELECT p_image,p_name FROM product_detail ORDER BY hit DESC)) "
+					+"FROM (SELECT p_image,p_name FROM product_detail ORDER BY p_hit DESC)) "
 					+"WHERE num BETWEEN 1 AND 5";
 		ps=conn.prepareStatement(sql);
 		ResultSet rs=ps.executeQuery();
