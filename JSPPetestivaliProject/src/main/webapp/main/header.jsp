@@ -50,13 +50,16 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                       <a href="./index.html">
+                       <h2>PETSTIVAL<img src="img/mainlogo.png" width="35px" height="35px">
+                       </h2>
+                       </a>
                     </div>
-                </div>
+                 </div>
                 <div class="col-lg-6">
                     <nav class="header__menu">
                         <ul>
-                            <li class="active"><a href="./index.html">Home</a></li>
+                            <li class="active"><a href="../main/main.do">Home</a></li>
                             <li><a href="./shop-grid.html">Shop</a></li>
                             <li><a href="#">Pages</a>
                                 <ul class="header__menu__dropdown">
