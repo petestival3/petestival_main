@@ -57,7 +57,7 @@
 	<!-- header -->
 	<jsp:include page="header.jsp"></jsp:include>
 	<!-- home -->
-	<jsp:include page="home.jsp"></jsp:include>
+	<jsp:include page="${main_jsp }"></jsp:include>
 	<!-- footer -->
 	<jsp:include page="footer.jsp"></jsp:include>
 
