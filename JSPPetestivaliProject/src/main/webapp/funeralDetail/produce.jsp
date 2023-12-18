@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8" import="com.sist.*"%>
+    pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
@@ -22,7 +22,6 @@
     </div>
   <c:forEach var="fdvo" items="${list }">
     <div class="funeral_produce_all container">
-      <div class="funeral_produce funeral_1 row">
         <img src="${fdvo.infoimage }" alt="" />
         <div>
           <span>${fdvo.mno }</span>
@@ -30,7 +29,6 @@
           <p>${fdvo.infop }</p>
         </div>
       </div>
-    </div>
    </c:forEach>
     <!-- Contact Form End -->
    

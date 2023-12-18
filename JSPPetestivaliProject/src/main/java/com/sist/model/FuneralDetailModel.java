@@ -1,15 +1,28 @@
 package com.sist.model;
 
+import java.util.List;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-
 import com.sist.controller.RequestMapping;
+import com.sist.dao.*;
+import com.sist.vo.*;
 
 public class FuneralDetailModel {
 	@RequestMapping("FuneralDetail/produce.do")
-	public String main_funeral(HttpServletRequest request, HttpServletResponse response)
+	public String funeral_main(HttpServletRequest request, HttpServletResponse response)
 	{
-		request.setAttribute("main_jsp", "../funeralDetail/produce.jsp");
-		return "../main/main.jsp";
+		// DB 연동
+	      // 1. 요청값 받기
+          //없는듯???
+	      // 2. DB 연동 
+	      FuneralDetailDAO dao=FuneralDetailDAO.newInstance();
+	      System.out.println("funeralDetailDAO-dao="+dao);
+	      List<FuneralDetailVO> list=dao.FuneralListData();
+	      
+	      // 3. 결과값 모아서 request에 저장
+	      request.setAttribute("list", list);
+		  request.setAttribute("main_jsp", "../funeralDetail/produce.jsp");
+		  return "../main/main.jsp";
 	}
 }
