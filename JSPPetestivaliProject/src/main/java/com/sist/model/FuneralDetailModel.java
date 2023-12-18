@@ -17,7 +17,7 @@ public class FuneralDetailModel {
           //없는듯???
 	      // 2. DB 연동 
 	      FuneralDetailDAO dao=FuneralDetailDAO.newInstance();
-	      System.out.println("funeralDetailDAO-dao="+dao);
+	      //System.out.println("funeralDetailDAO-dao="+dao);
 	      List<FuneralDetailVO> list=dao.FuneralListData();
 	      
 	      // 3. 결과값 모아서 request에 저장

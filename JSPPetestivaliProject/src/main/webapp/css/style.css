@@ -73,13 +73,52 @@
     overflow: hidden; 
     text-overflow: ellipsis;   
 }
+
+/*지역별 추천 숙소 수정*/
 .featured__controls ul li:hover{
-	text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
 }
 
-/*장례절차*/
+/*장례절차 페이지*/
 .funeral_produce_all{
 	 padding: 0 0 80px;
+}
+.funeral_produce_text{
+	padding: 50px 0 0;
+}
+.funeral_produce_text span{
+	font-size: 35px;
+	margin-right: 10px;
+}
+.funeral_produce_text h3{
+	display: inline-block;
+	margin-bottom: 30px;
+}
+.res_submenu{
+	background-color: #5a70e9;
+	text-align: center;
+	border-radius: 50%;
+	position: fixed;
+	right: 150px;
+	top: 400px;
+	width: 100px;
+	height: 100px;
+}
+.res_submenu a{
+	display: block;
+}
+.res_submenu i{
+	margin-top: 20px;
+	font-size: 25px;
+	color: #fff !important;
+}
+.res_submenu p{
+	color: #fff;
+}
+.res_submenu:hover{
+	 box-shadow: 0 10px 10px 10px rgba(90,112,233, 0.2);
+	 transition: all 0.4s ease-in-out;
+	 transform: translateY(-25px);
 }
 /*----------------------------------------*/
 /* Template default CSS
