@@ -73,7 +73,7 @@
                                <ul class="header__menu__dropdown">
                                     <li><a href="../FuneralDetail/produce.do">장례 절차 안내</a></li>
                                     <li><a href="#">장례식장 검색하기</a></li>
-                                    <li><a href="#">장례 예약하기</a></li>
+                                    <li><a href="../FuneralDetail/reserve.do">장례 예약하기</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">COMMUNITY</a>

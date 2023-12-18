@@ -25,4 +25,12 @@ public class FuneralDetailModel {
 		  request.setAttribute("main_jsp", "../funeralDetail/produce.jsp");
 		  return "../main/main.jsp";
 	}
+	
+	@RequestMapping("FuneralDetail/reserve.do")
+	public String funeral_reserve(HttpServletRequest request, HttpServletResponse response)
+	{
+	      // 3. 결과값 모아서 request에 저장
+		  request.setAttribute("main_jsp", "../funeralDetail/reserve.jsp");
+		  return "../main/main.jsp";
+	}
 }
