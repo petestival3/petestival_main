@@ -73,6 +73,9 @@
     overflow: hidden; 
     text-overflow: ellipsis;   
 }
+.featured__controls ul li:hover{
+	
+}
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
