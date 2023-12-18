@@ -72,7 +72,7 @@
                     
                     <div class="col-lg-3">
                         <div><a href="#"><img src="${pvo.p_image }">
-                            <h5 class="text-center">${pvo.p_name }</h5></a>
+                            <h5 class="sp_title text-center">${pvo.p_name }</h5></a>
                         </div>
                     </div>
                 </c:forEach>
