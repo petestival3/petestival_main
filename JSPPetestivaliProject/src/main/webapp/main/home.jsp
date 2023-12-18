@@ -29,25 +29,25 @@
                         <div class="latest-product__slider owl-carousel">
                             <div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item hero__item set-bg" data-setbg="../img/latest-product/hotelbanner.webp">
-                                    <div class="latest-product__item__text">
-                                        <h2 class="hotelbanner">반려동물과 "함께"하는<br />즐거운 여행</h2>
-                                        <span class="hotelbanner">합리적인 가격에 따뜻한 추억을</span>
+                                    <div class="latest-product__item__text ht_banner">
+                                        <h2 class="ht_h2_banner">반려동물과 "함께"하는<br />즐거운 여행</h2>
+                                        <span class="ht_span_banner">합리적인 가격에 따뜻한 추억을</span>
                                     </div>
                                 </a>
                             </div>
                             <div class="latest-prdouct__slider__item">
                                 <a href="#" class="latest-product__item hero__item set-bg" data-setbg="../img/latest-product/hospital.png">
-                                    <div class="latest-product__item__text">
-                                        <h2>과잉 진료 없는 <br />신뢰를 드립니다</h2>
-                                        <span>믿을 수 있는 병원들만 소개해 드립니다.</span>
+                                    <div class="latest-product__item__text hp_banner">
+                                        <h2 class="hp_h2_banner">과잉 진료 없는 <br />신뢰를 드립니다</h2>
+                                        <span class="hp_span_banner">믿을 수 있는 병원들만 소개해 드립니다.</span>
                                     </div>
                                 </a>
                             </div>
                              <div class="latest-prdouct__slider__item">
-                                <a href="#" class="latest-product__item hero__item set-bg" data-setbg="../img/latest-product/missing.jpg">
-                                    <div class="latest-product__item__text">
-                                        <h2>사랑했던 가족에게<br />따뜻한 인사를 건네주세요</h2>
-                                        <span>모자람 없는 정성으로 곁에 있겠습니다.</span>
+                                <a href="#" class="latest-product__item hero__item set-bg" data-setbg="../img/latest-product/funeral_banner.jpg">
+                                    <div class="latest-product__item__text f_banner">
+                                        <h2 class="f_h2_banner">사랑했던 가족을<br />배웅 해주세요</h2>
+                                        <span class="f_span_banner">모자람 없는 정성으로 곁에 있겠습니다.</span>
                                     </div>
                                 </a>
                             </div>

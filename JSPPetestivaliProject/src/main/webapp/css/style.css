@@ -28,8 +28,51 @@
 /*----------------------------------------*/
 /* ㅈㅇㄴ 수정한 CSS
 /*----------------------------------------*/
+/*상단베너 위치 수정*/
+.hero__item{
+  position: relative;
+}
+.latest-product__item__text{
+  position: absolute;
+}
 
+/*상단베너 텍스트 수정*/
 
+.ht_banner{
+	top: 150px;
+	left: 50px;	
+}
+.hp_banner,
+.f_banner{
+	top: 130px;
+	right: 50px;
+	font-weight: 700;
+}
+.ht_h2_banner,
+.ht_span_banner{
+	color: #fff !important;
+	text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.f_h2_banner,
+.f_span_banner{
+  	color: lemonchiffon !important;
+}
+.f_span_banner,
+.ht_span_banner,
+.hp_span_banner{
+	margin-top: 20px;
+}
+
+/*인기상품 출력 수정*/
+.categories{
+	margin-top: 50px;
+}
+.sp_title{
+	margin-top: 20px;
+	white-space: nowrap; 	
+    overflow: hidden; 
+    text-overflow: ellipsis;   
+}
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
@@ -965,8 +1008,8 @@ ol {
 
 .latest-product__slider.owl-carousel .owl-nav {
 	position: absolute;
-	right: 20px;
-	top: -75px;
+	right: 20px !important;
+	top: 380px;
 }
 
 .latest-product__slider.owl-carousel .owl-nav button {
