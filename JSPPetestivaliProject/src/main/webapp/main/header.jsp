@@ -69,14 +69,14 @@
                                 </ul>
                             </li>
                             <li><a href="#">HOTEL</a></li>
-                            <li><a href="../funeralDetail/produce.do">FUNERAL</a>
+                            <li><a href="#">FUNERAL</a>
                                <ul class="header__menu__dropdown">
-                                    <li><a href="#">장례 절차 안내</a></li>
+                                    <li><a href="../FuneralDetail/produce.do">장례 절차 안내</a></li>
                                     <li><a href="#">장례식장 검색하기</a></li>
                                     <li><a href="#">장례 예약하기</a></li>
                                 </ul>
                             </li>
-                            <li><a href="../funeralDetail/produce.do">COMMUNITY</a>
+                            <li><a href="#">COMMUNITY</a>
                                <ul class="header__menu__dropdown">
                                     <li><a href="#">자유게시판</a></li>
                                     <li><a href="#">반려동물 자랑게시판</a></li>

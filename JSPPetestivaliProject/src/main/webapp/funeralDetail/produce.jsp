@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8" import="com.sist.*"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
@@ -18,20 +18,16 @@
             </div>
           </div>
         </div>
-        <p class="funeral_res"><a href="#">장례 예약하기</a></p>
       </div>
     </div>
-  <c:forEach var="i" begin="1" end="8">
+  <c:forEach var="fdvo" items="${list }">
     <div class="funeral_produce_all container">
       <div class="funeral_produce funeral_1 row">
-        <img src="${vo.infoimage }" alt="" />이미지
+        <img src="${fdvo.infoimage }" alt="" />
         <div>
-          <span>숫자${vo.mno }</span>
-          <h3>제목${vo.infoh3 }</h3>
-          <p>내용${vo.infop }</p>
-          <div>
-          <jsp:include page="ok.jsp"></jsp:include>
-          </div>
+          <span>${fdvo.mno }</span>
+          <h3>${fdvo.infoh3 }</h3>
+          <p>${fdvo.infop }</p>
         </div>
       </div>
     </div>

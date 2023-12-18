@@ -20,12 +20,13 @@
                        </a>
                     </div>
                         <ul>
-                            <li>Address: 60-49 Road 11378 New York</li>
-                            <li>Phone: +65 11.188.888</li>
-                            <li>Email: hello@colorlib.com</li>
+                            <li>Address: 서울 마포구 3조_PESTIVAL</li>
+                            <li>Phone: 02)333-3333</li>
+                            <li>Email: PETSTIVAL@gmail.com</li>
                         </ul>
                     </div>
                 </div>
+                <!--  
                 <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
                     <div class="footer__widget">
                         <h6>Useful Links</h6>
@@ -47,6 +48,7 @@
                         </ul>
                     </div>
                 </div>
+                
                 <div class="col-lg-4 col-md-12">
                     <div class="footer__widget">
                         <h6>Join Our Newsletter Now</h6>
@@ -63,6 +65,7 @@
                         </div>
                     </div>
                 </div>
+                -->
             </div>
             <div class="row">
                 <div class="col-lg-12">
